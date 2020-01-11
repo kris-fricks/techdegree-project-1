@@ -62,9 +62,19 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
+#head-interests {
+  background: url('images/interests_background_pic.jpg') no-repeat top center ;
+}
+  
+#head-contact {
+  background: url('images/contact_background_pic.jpg') no-repeat top center ;
+}
+
 header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -76,6 +86,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
+
 .tag {
   background-color: lightyellow;
   color: black;
@@ -84,6 +95,25 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+
+#tag-interests {
+  background-color: lightyellow;
+  color: black;
+  padding: 15px;
+  border-radius: 25px;
+  display: table;
+  margin: 150px auto;
+} 
+
+#tag-contact {
+  background-color: lightyellow;
+  color: black;
+  padding: 15px;
+  border-radius: 25px;
+  display: table;
+  margin: 150px auto;
+} 
+
 .location {
   background-color: red;
   color: lightyellow;
