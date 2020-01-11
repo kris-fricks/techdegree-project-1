@@ -123,7 +123,7 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
@@ -150,6 +150,12 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: green;
 }
+
+#studio {
+    max-width: 1000px;
+    max-height: 1500px;
+}
+
 
 footer {
   width: 100%;
